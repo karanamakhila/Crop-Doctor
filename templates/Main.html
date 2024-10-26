@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropDoctor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+</head>
+<body>
+<ul>
+  <!-- <li><img class="img" src="C:\Users\karan\OneDrive\Documents\CropDoctor\Works\MY_home_login\static\imgs\logo.jpeg"></li> -->
+  <li><img src="{{ url_for('static', filename='imgs/logo.jpeg') }}" class="img-fluid"></li>
+  <li><a class="active" href="#home">CropDoctor</a></li>
+  <li><a href="login">Login</a></li>
+</ul>
+<div class="row">
+  <h1>Welcome to CropDoctor</h1>
+  <h3>As farmers are the root level building blocks in the economy of any country and they work really hard for a whole season to grow a specific crop for survival of not only his family but the whole world.Sometimes these crops on which he dedicated his whole 3-6 months to nurture these crops got disease as result of which they can't sell their crops on the price he was expecting.</h3>
+  <h3>So here comes the solution, this is very simple and most useful thing for farmers,to find the diseases of plants before hand "CropDoctor" help the farmers.</h3>
+  <h2>To use CropDoctor, follow the simple steps given below-</h2>
+  <h3>1.Firstly ,just register yourself. </h3>
+  <h3>2.Then place the picture of any leaf whose disease to be detected.</h3>
+  <h3>Yes that's it.</h3>
+  <h2>we will detect the disease and give the necessary information.</h2>
+  <h4>(To start the usage of CropDoctor , go to navbar and click on "Login" and continue your journey with us...)</h4>
+  <!-- <img src="{{ url_for('static', filename='imgs/logo-small.jpg')}}" class="image-fluid"><br><br> -->
+
+</div>
+</body>
+</html>

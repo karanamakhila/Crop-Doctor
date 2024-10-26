@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+</head>
+<body>
+    <h2>{{msg}}</h2>
+  <div class="row">
+    <div class="column1">
+      <img src="{{ url_for('static', filename='imgs/logo-small.jpg')}}" class="img-fluid">
+      <!-- <img src="C:\Users\karan\OneDrive\Documents\CropDoctor\Works\MY_home_login\static\imgs\Farmers.jpg" class="img-fluid"> -->
+    </div>
+    <div class="column2">
+      <form action="" method="post">
+        <h1>Login to CropDoctor</h1><br>    
+        <div class="form-outline">
+        <label class="form-label">Full Name</label><br>
+        <input type="text" name="fname" id="form1Example" placeholder="Enter Your Full Name"/>
+        </div><br><br>
+        <div class="form-outline">
+        <label class="form-label">Email</label><br>
+        <input type="email" name="email" id="form1Example"placeholder="Enter Your Email Adress"/>
+        </div><br><br>
+        <div class="form-outline">
+        <label class="form-label">Password</label><br>
+        <input type="password" name="password" id="form1Example" placeholder="Enter Your Password"/>
+        </div><br><br>
+        <button type="submit" name="buttons" value="signin">Sign in</button>
+        <button type="submit" name="buttons" value="register">Register</button><br><br>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

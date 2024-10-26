@@ -1,0 +1,34 @@
+body{
+    /* background: linear-gradient(0.35turn, #819686, #ebf8e1, #bde097); */
+    background-image:url(C:\Users\karan\Downloads\CropDoctor-main\CropDoctor-main\static\imgs\home_back.jpg) ;
+    background-size: cover;
+    background-position: center;
+    margin-left: 38%;
+}
+h1{
+    margin-left: -5%;
+}
+input.choose{
+    /* background-color: gray; */
+    font-size: 17px;
+    width: 250px;
+    height: 30px; 
+}
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+button{
+    border-radius: 50px;
+    border: none;
+    border: 2px solid #4CAF50;
+    /* border-color: #4CAF50; */
+    height: 45px;
+    width:200px;
+    /* background-color: rgb(94, 169, 7); */
+    margin-right: 15px;
+}

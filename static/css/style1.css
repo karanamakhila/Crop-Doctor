@@ -1,0 +1,54 @@
+.img-fluid{
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(82, 146, 4);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-size: 20px;
+  display: block;
+  color: rgb(8, 7, 7);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  height: 30px;
+  margin-left: 5px;
+  background-color: rgb(68, 122, 2);
+}
+h1{
+  margin-left: 32%;
+}
+h2{
+  margin-left: 4%;
+  font-style: italic;
+  color: rgb(160, 98, 98);
+}
+h4{
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(201, 24, 24);
+}
+h3{
+  font-family: sans-serif;
+  margin-left: 4%;
+}
+.image-fluid{
+  margin-left: 15%;
+  width: 65%;
+  height: 55%;
+}

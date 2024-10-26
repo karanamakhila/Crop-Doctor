@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictions</title>
+    <style>
+        img{
+            
+        }
+        h1{
+            margin-left: 670px;
+            font-size: 38px;
+            color: green;
+        }
+        body{
+            background-color: rgba(255, 212, 127, 0.948);
+            margin-top: 50px;
+            margin-left: 11px;
+            font-size: 25px;
+        }
+        .column {
+            float: left;
+            width: 50%; 
+            /*margin-left: 50px;
+            margin-top: 50px;
+            font-size: 25px;*/
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .img-fluid{
+            margin-top: 10px;
+            margin-left: 150px;
+            width: 500px;
+            height: 500px;
+        }
+
+    </style>
+</head>
+<h1>Prediction</h1>
+<body>
+    <div class="row">
+        <div class="column"><img src="{{ url_for('static', filename=img )}}" class="img-fluid"></div>
+        <div class="column" style="margin-top: 10px;">The disease is {{di}}.<br>{{res}}</div>
+    </div>
+</body>
+</html>

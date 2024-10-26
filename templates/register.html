@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style3.css') }}">
+</head>
+<body>
+    <h2>{{msg}}</h2>
+  <div class="row">
+    <div class="column1">
+      <img src="{{ url_for('static', filename='imgs/Farmer.jpeg') }}" class="img-fluid">
+      <!-- <img src="C:\Users\karan\OneDrive\Documents\CropDoctor\Works\MY_home_login\static\imgs\Farmer.jpg" class="img-fluid"> -->
+    </div>
+    <div class="column2">
+      <form action="" method="post">
+        <h1>Register for CropDoctor</h1><br>    
+        <div class="form-outline">
+        <label class="form-label">Full Name</label><br>
+        <input type="text" name="fname" id="form1Example" required placeholder="enter your full name..."/>
+        </div><br><br>
+        <div class="form-outline">
+        <label class="form-label">Email</label><br>
+        <input type="email" name="email" id="form1Example" required placeholder="enter your email..."/>
+        </div><br><br>
+        <div class="form-outline">
+        <label class="form-label">Phone Number</label><br>
+        <input type="phone" name="phno" id="form1Example" required placeholder="enter your phone number..."/>
+        </div><br><br>
+        <div class="form-outline">
+        <label class="form-label">Password</label><br>
+        <input type="password" name="password1" id="form1Example" required placeholder="enter your password..."/>
+        </div><br><br>
+        <div class="form-outline">
+        <label class="form-label">Confirm Password</label><br>
+        <input type="password" name="password2" id="form1Example" required placeholder="enter your password again..."/>
+        </div><br><br>
+        <button type="submit" name="buttons">Register</button><br><br>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
